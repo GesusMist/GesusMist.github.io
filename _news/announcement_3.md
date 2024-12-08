@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Glad meeting you at NUS
+Glad meeting you at <a href="https://nus.edu.sg">NUS</a>!

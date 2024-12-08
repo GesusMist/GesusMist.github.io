@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Finished VISP of Wisconsin-Madison!
+Finished VISP at Wisconsin-Madison!
