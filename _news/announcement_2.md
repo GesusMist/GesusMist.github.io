@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Internship at <a href="https://deemos.com/">Deemos Technologies Inc</a>!
+Internship at <a href="https://hyper3d.ai/">Deemos Technologies Inc (a.k.a Hyper3D)</a>!
 
 
