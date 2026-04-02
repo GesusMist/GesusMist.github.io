@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.tamu.edu/index.html'> Texas A&M University</a>.
 
 profile:
   align: right
@@ -15,6 +15,7 @@ selected_papers: false
 social: true
 ---
 
-Write your biography here. Tell the world about yourself, your work, and the best way to get in touch.
+I am currently a MSCS student at <a href='https://www.tamu.edu/index.html'> Texas A&M University</a>. Before that I graduated from <a href='https://www.shanghaitech.edu.cn/eng/'> ShanghaiTech University</a> and was honored to be advised by <a href='http://dengji-zhao.net/'> Prof. Dengji Zhao</a>. I also feel lucky to had the chance working at MARS Lab and Deemos Inc. for <a href='https://hyper3d.ai/'> Hyper3D</a>.
 
-Use this page as your main landing page, and keep your course materials organized on the [teaching](/teaching/) page.
+My research interest is at Graphics/Vision and Computational Game Theory. My ultimate goal is to reconsctruct/simulate the real world better, so Graphics/Vision help with the physical world and Game Theory models how creatures(currently human, probably agents in the future) interact. Currently I am actively looking for research oppotunities and preparing to apply for PhD programs 2027. 
+
