@@ -15,7 +15,8 @@ selected_papers: false
 social: true
 ---
 
-I am currently a MSCS student at <a href='https://www.tamu.edu/index.html'> Texas A&M University</a>. Before that I graduated from <a href='https://www.shanghaitech.edu.cn/eng/'> ShanghaiTech University</a> and was honored to be advised by <a href='http://dengji-zhao.net/'> Prof. Dengji Zhao</a>. I also feel lucky to had the chance working at MARS Lab and Deemos Inc. for <a href='https://hyper3d.ai/'> Hyper3D</a>.
+I am currently a MSCS student at <a href='https://www.tamu.edu/index.html'> Texas A&M University</a>. Previously, I received my B.S. from <a href='https://www.shanghaitech.edu.cn/eng/'> ShanghaiTech University</a>  where I was fortunate to be advised by <a href='http://dengji-zhao.net/'> Prof. Dengji Zhao</a>. I have also had the opportunity to work at MARS Lab and at Deemos Inc. on <a href='https://hyper3d.ai/'> Hyper3D</a> and cutting-edge techniques.
 
-My research interest is at Graphics/Vision and Computational Game Theory. My ultimate goal is to reconsctruct/simulate the real world better, so Graphics/Vision help with the physical world and Game Theory models how creatures(currently human, probably agents in the future) interact. Currently I am actively looking for research oppotunities and preparing to apply for PhD programs 2027. 
+My research interests lie broadly in computer graphics/vision, and computational game theory. My long-term goal is to better reconstruct and simulate the real world: graphics and vision help us understand and model the physical world, while game theory provides tools for studying how creatures (currently humans, and potentially AI agents in the future) interact and make decisions.
 
+I am actively seeking research opportunities and preparing to apply for PhD programs in 2027.
