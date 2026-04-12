@@ -18,6 +18,4 @@ courses:
     institution: ShanghaiTech University
 ---
 
-I have served as a teaching assistant for the following courses.
-
 {% include teaching_list.liquid courses=page.courses %}
