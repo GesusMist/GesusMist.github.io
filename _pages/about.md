@@ -12,6 +12,7 @@ profile:
 
 news: false
 selected_papers: true
+teaching: true
 social: true
 ---
 

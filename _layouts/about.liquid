@@ -56,6 +56,26 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Teaching -->
+    {% if page.teaching %}
+      {% assign teaching_page = site.pages | where_exp: "item", "item.url == '/teaching/'" | first %}
+      <h2>
+        {% if teaching_page %}
+          <a href="{{ teaching_page.url | relative_url }}" style="color: inherit">Teaching</a>
+        {% else %}
+          Teaching
+        {% endif %}
+      </h2>
+      {% if page.teaching_description %}
+        {{ page.teaching_description | markdownify }}
+      {% elsif teaching_page and teaching_page.description %}
+        <p>{{ teaching_page.description }}</p>
+      {% endif %}
+      {% if teaching_page %}
+        <p><a href="{{ teaching_page.url | relative_url }}">View teaching materials</a></p>
+      {% endif %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
