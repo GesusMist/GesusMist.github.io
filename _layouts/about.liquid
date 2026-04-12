@@ -59,20 +59,29 @@ layout: default
     <!-- Teaching -->
     {% if page.teaching %}
       {% assign teaching_page = site.pages | where_exp: "item", "item.url == '/teaching/'" | first %}
-      <h2>
-        {% if teaching_page %}
-          <a href="{{ teaching_page.url | relative_url }}" style="color: inherit">Teaching</a>
-        {% else %}
-          Teaching
-        {% endif %}
-      </h2>
-      {% if page.teaching_description %}
+      {% assign teaching_courses = teaching_page.courses | default: page.teaching_courses %}
+      <h2>Teaching</h2>
+      {% if teaching_courses and teaching_courses.size > 0 %}
+        <ul>
+          {% for course in teaching_courses %}
+            <li>
+              {% if course.code and course.title %}
+                <strong>{{ course.code }}</strong>: {{ course.title }}
+              {% elsif course.title %}
+                <strong>{{ course.title }}</strong>
+              {% elsif course.code %}
+                <strong>{{ course.code }}</strong>
+              {% endif %}
+              {% if course.term %}, {{ course.term }}{% endif %}
+              {% if course.role %} ({{ course.role }}){% endif %}
+              {% if course.institution %}, {{ course.institution }}{% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% elsif page.teaching_description %}
         {{ page.teaching_description | markdownify }}
       {% elsif teaching_page and teaching_page.description %}
         <p>{{ teaching_page.description }}</p>
-      {% endif %}
-      {% if teaching_page %}
-        <p><a href="{{ teaching_page.url | relative_url }}">View teaching materials</a></p>
       {% endif %}
     {% endif %}
 
