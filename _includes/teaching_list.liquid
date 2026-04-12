@@ -1,0 +1,35 @@
+{% assign courses = include.courses %}
+{% if courses and courses.size > 0 %}
+  <div class="teaching-list">
+    {% for course in courses %}
+      <article class="teaching-item">
+        <div class="teaching-item__header">
+          <div class="teaching-item__course">
+            {% if course.code %}
+              <p class="teaching-item__code">{{ course.code }}</p>
+            {% endif %}
+            {% if course.title %}
+              <h3 class="teaching-item__title">{{ course.title }}</h3>
+            {% elsif course.code %}
+              <h3 class="teaching-item__title">{{ course.code }}</h3>
+            {% endif %}
+          </div>
+          {% if course.term %}
+            <p class="teaching-item__term">{{ course.term }}</p>
+          {% endif %}
+        </div>
+
+        {% if course.role or course.institution %}
+          <div class="teaching-item__meta">
+            {% if course.role %}
+              <span class="teaching-item__pill">{{ course.role }}</span>
+            {% endif %}
+            {% if course.institution %}
+              <span class="teaching-item__institution">{{ course.institution }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+{% endif %}
